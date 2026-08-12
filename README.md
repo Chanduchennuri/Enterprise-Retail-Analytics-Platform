@@ -19,6 +19,9 @@ The objective is to design and implement a scalable analytics platform capable o
 ---
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/2a4ee2af-75c6-4f66-8dd8-d63f63004cf8" />
 
+#Logical Data Model Retail_Analytics_Platform
+<img width="2348" height="1380" alt="image" src="https://github.com/user-attachments/assets/01cd637a-c55a-48a0-95c0-356975d3f88b" />
+
 
 ## Business Domain
 

@@ -17,6 +17,8 @@ The objective is to design and implement a scalable analytics platform capable o
 - Executive KPI Reporting
 
 ---
+![Uploading image.png…]()
+
 
 ## Business Domain
 

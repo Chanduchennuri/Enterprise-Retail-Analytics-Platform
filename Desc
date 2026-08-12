@@ -1,0 +1,101 @@
+A few weeks ago, I thought building a data engineering project meant creating tables, writing ETL pipelines, and loading data into a warehouse.
+
+The deeper I went, the more I realized that real-world projects start much earlier.
+
+Before writing a single SQL query, we started by asking:
+
+What business are we solving for?
+
+Instead of jumping directly into Snowflake, DBT, or dashboards, we chose a domain and began thinking like architects.
+
+For our project, we selected a Multi-Channel Retail & Supply Chain Enterprise where customers, suppliers, warehouses, stores, inventory, orders, payments, shipments, and returns all generate business events and data.
+
+So far, we've completed:
+
+✅ Domain Research
+
+Retail business processes
+Industry systems (Shopify, SAP Retail, Oracle Retail, Amazon Seller)
+Stakeholder analysis
+Analytics use cases
+
+✅ Business Requirements
+
+Revenue visibility
+Inventory optimization
+Customer analytics
+Supplier performance tracking
+Executive reporting
+
+✅ Conceptual Data Modeling (CDM)
+
+Customer
+Product
+Supplier
+Warehouse
+Inventory
+Order
+Payment
+Shipment
+Return
+
+Understanding how business entities interact before thinking about databases.
+
+✅ Business Process Modeling
+
+Order-to-Cash (O2C)
+Procure-to-Pay (P2P)
+Return-to-Refund (R2R)
+
+Mapping how data is actually generated across enterprise systems.
+
+✅ Logical Data Modeling (LDM)
+
+Entity relationships
+Cardinality
+Business rules
+Relationship matrices
+Bridge table discussions
+Reference data strategy
+
+✅ Normalization Review
+
+1NF
+2NF
+3NF
+Redundancy elimination
+Data integrity design decisions
+
+One of the biggest lessons so far:
+
+A data warehouse is only as good as the business model behind it.
+
+Most tutorials start with tables.
+
+Enterprise projects start with business processes.
+
+Next, we'll move into:
+
+🔹 Physical Data Modeling (PostgreSQL)
+
+🔹 Source System Simulation
+
+🔹 Data Generation & Ingestion
+
+🔹 Snowflake Data Warehouse Design
+
+🔹 Star Schema & Fact/Dimension Modeling
+
+🔹 SCD Type 1 & Type 2
+
+🔹 DBT Transformations
+
+🔹 Data Quality Framework
+
+🔹 Data Lineage
+
+🔹 Bronze → Silver → Gold Architecture
+
+The goal isn't just to build a project.
+
+It's to understand how modern organizations design, govern, transform, and analyze data at scale.
